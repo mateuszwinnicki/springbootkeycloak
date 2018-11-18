@@ -1,0 +1,9 @@
+server:
+  port: 8180
+
+keycloak:
+  realm: SpringBootWithKeyCloak
+  bearerOnly: true
+  authServerUrl: http://localhost:8080/auth
+  sslRequired: external
+  resource: login
